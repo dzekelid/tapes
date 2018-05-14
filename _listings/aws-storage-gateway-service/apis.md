@@ -35,15 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tapes/master/_listings/aws-storage-gateway-service/action-retrievetapearchive-get.md
-- name: AWS Storage Gateway Service API Delete Tape Archive
-  description: Deletes the specified virtual tape from the virtual tape shelf (VTS).
+- name: AWS Storage Gateway Service API Describe Tapes
+  description: Returns a description of the specified Amazon Resource Name (ARN) of
+    virtual tapes.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
   humanURL: https://aws.amazon.com/storagegateway/
   baseURL: http:://{host}//
   tags: Tapes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tapes/master/_listings/aws-storage-gateway-service/action-deletetapearchive-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tapes/master/_listings/aws-storage-gateway-service/action-describetapes-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
