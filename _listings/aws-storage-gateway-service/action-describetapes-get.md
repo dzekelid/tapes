@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Describe Tapes
   version: 1.0.0
+  description: Returns a description of the specified Amazon Resource Name (ARN) of
+    virtual tapes.
 schemes:
 - http
 produces:
