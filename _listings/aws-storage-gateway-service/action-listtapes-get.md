@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API List Tapes
   version: 1.0.0
+  description: |-
+    Lists virtual tapes in your virtual tape library (VTL) and your virtual tape shelf
+             (VTS).
 schemes:
 - http
 produces:
