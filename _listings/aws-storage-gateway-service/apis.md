@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tapes/master/_listings/aws-storage-gateway-service/action-retrievetapearchive-get.md
-- name: AWS Storage Gateway Service API Create Tapes
-  description: Creates one or more virtual tapes.
+- name: AWS Storage Gateway Service API Delete Tape
+  description: Deletes the specified virtual tape.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
   humanURL: https://aws.amazon.com/storagegateway/
   baseURL: http:://{host}//
   tags: Tapes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tapes/master/_listings/aws-storage-gateway-service/action-createtapes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tapes/master/_listings/aws-storage-gateway-service/action-deletetape-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
