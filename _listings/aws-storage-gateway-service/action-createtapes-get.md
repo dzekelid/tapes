@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Create Tapes
   version: 1.0.0
+  description: Creates one or more virtual tapes.
 schemes:
 - http
 produces:
