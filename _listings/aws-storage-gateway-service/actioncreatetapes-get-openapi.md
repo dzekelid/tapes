@@ -1,5 +1,7 @@
 ---
 swagger: "2.0"
+x-collection-name: AWS Storage Gateway Service
+x-complete: 0
 info:
   title: AWS Storage Gateway Service API Create Tapes
   version: 1.0.0
@@ -13,9 +15,10 @@ consumes:
 paths:
   /?Action=CreateTapes:
     get:
-      summary: ' Create Tapes '
-      description: Creates one or more virtual tapes
+      summary: Create Tapes
+      description: Creates one or more virtual tapes.
       operationId: createTapes
+      x-api-path-slug: actioncreatetapes-get
       parameters:
       - in: query
         name: ClientToken
@@ -43,9 +46,7 @@ paths:
         200:
           description: OK
       tags:
-      - tapes
-definitions: []
-x-collection-name: AWS Storage Gateway Service
+      - Tapes
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
